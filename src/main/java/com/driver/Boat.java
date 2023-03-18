@@ -2,11 +2,13 @@ package com.driver;
 
 public class Boat implements WaterVehicle {
 
-    private int capacity;
 
     private String name;
+    private int capacity;
 
-    public Boat(int capacity, String name) {
+
+
+    public Boat(String name,int capacity) {
         this.capacity = capacity;
         this.name = name;
     }
